@@ -1,4 +1,4 @@
-<b>Knowledge-Nexus
+<b>Knowledge-Nexus</b>
 </br>
 This is a library management project based on C++ language.
 </br>
