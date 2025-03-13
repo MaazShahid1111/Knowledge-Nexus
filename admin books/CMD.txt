@@ -1,0 +1,21 @@
+
+dir :
+	to list all directories.
+E / D / C :
+	write to change drives.
+cd.. :
+	to get out of a file or directory.
+cd (directory or file name):
+	to go in a new directory.
+echo.(Extension):
+	to make a new file.
+del (file_name):
+	to delete a file.
+start (Jahan file kholne hai ) (file_name.Extension):
+	to open a file in a specific format like ,txt etc...
+code file_name.c:
+	specifically to open a file in VScode of C language.
+rmdir (Folder_name):
+	to delete a folder.
+start (fike_name):
+	i think to open a file without telling the system to open it in a specific application.

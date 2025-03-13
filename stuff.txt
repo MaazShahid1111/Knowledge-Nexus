@@ -1,0 +1,8 @@
+admin_operation = to monitor what admin wants to do
+choice_main = to choose whether admin or student
+int index = to store the number of book
+path_to_admin = goes to admins folder from where books will be transfered
+book_path_admin = holds the adresses of all books in .pdf 
+admin_folder = is the adress of folder from where the pdf will be transfered
+student_folder = is the address where the book will be transfered
+book_path_student = is the place that holds the addresses of books in student admin_folder
