@@ -13,7 +13,7 @@ void Student()
         cout << "\n\n\t\tWelcome Student\n\t   =======================\n\t\t   =========";
         cout << "\nWhat operation would you like to perform : ";
         int student_operation;
-        cout << "\n1. View Your Books\n2.Explore Books\n3. View Due Books\n4. Exit.\n5. Go Back ";
+        cout << "\n1. View Your Books\n2.Explore Books\n3. Exit.\n4. Go Back ";
         cin >> student_operation;
         if (student_operation == 1) // View books
         {
@@ -23,15 +23,11 @@ void Student()
         {
             explore();
         }
-        else if (student_operation == 3) // View books that needs to be returned
-        {
-            due_books();
-        }
-        else if (student_operation == 4) // Quickly exit and leave the program
+        else if (student_operation == 3) // Quickly exit and leave the program
         {
             exit(0);
         }
-        else if (student_operation == 5) // go to previous page
+        else if (student_operation == 4) // go to previous page
         {
             cout << "Going Back...";
             return;
@@ -178,20 +174,5 @@ void explore()
             else
                 cout << "Invalid choice!";
         }
-    }
-}
-void due_books()
-{
-    while (true)
-    {
-        cout << "These are the due books...";
-        // Code to show due date books and fines
-        cout << "\nType B to go back ";
-        char back;
-        cin >> back;
-        if (back == 'B' || 'b')
-            return;
-        else
-            cout << "Enter a valid choice";
     }
 }
